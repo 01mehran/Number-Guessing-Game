@@ -63,10 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
   //  AganinBtn;
   againBtn.addEventListener("click", () => {
     secretNumber = Math.trunc(Math.random() * 20) + 1;
-    console.log(secretNumber);
 
     dispalyMessage("🌟 Start guessing");
-    dispalyBg("#222");
+    dispalyBg("oklch(48.8% 0.243 264.376)");
     checkBtn.classList.remove("disabledBtn");
     result.textContent = "?";
     input.value = "";
